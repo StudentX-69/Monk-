@@ -25,18 +25,19 @@ Make sure you have Node.js and your preferred package manager (npm, yarn, or pnp
 1. Clone the repository:
    ```sh
    git clone [https://github.com/studentx-69/monk-chocolate.git](https://github.com/studentx-69/monk-chocolate.git)
-   Navigate into the project directory:
+   
+2. Navigate into the project directory:
+ 
+   cd monk-chocolate
 
-Bash
-cd monk-chocolate
-Install the dependencies:
+3.Install the dependencies:
 
-Bash
-npm install
-Start the development server:
+  npm install
 
-Bash
-npm run dev
+4. Start the development server:
+
+   npm run dev
+   
 Open your browser and visit http://localhost:5173/
 
 🤝 Contributing
