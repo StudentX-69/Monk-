@@ -1,53 +1,49 @@
-# 🍫 Monk Chocolate — React + Tailwind SPA
+# Monk Chocolate 🍫
 
-Artisanal Bean-to-Bar chocolate website, rebuilt as a multi-page React SPA with Tailwind CSS v3.
+A modern, elegant e-commerce landing page crafted for **Monk**, a premium bean-to-bar dark chocolate brand. This project showcases a beautiful, responsive user interface designed to highlight the world's finest dark chocolate while educating users about the bean-to-bar movement.
 
-## Project Structure
+## ✨ Features
 
-```
-monk-chocolate/
-├── src/
-│   ├── components/
-│   │   ├── Navbar.jsx       # Shared nav with hamburger sidebar
-│   │   ├── Footer.jsx       # Shared footer
-│   │   └── Toast.jsx        # Cart notification toast
-│   ├── pages/
-│   │   ├── HomePage.jsx     # Landing page (pink bg)
-│   │   ├── CollectionPage.jsx  # Product grid
-│   │   ├── CartPage.jsx     # Product detail + qty (blue bg)
-│   │   └── SamplePage.jsx   # About / story page
-│   ├── data/
-│   │   └── products.js      # Product data array
-│   ├── App.jsx              # Root — state-based routing
-│   ├── index.css            # Tailwind directives + global styles
-│   └── main.jsx
-├── tailwind.config.js
-├── postcss.config.js
-└── vite.config.js
-```
+* **Modern UI/UX:** Clean, aesthetically pleasing design with a soft, complementary color palette.
+* **Responsive Layout:** Fully responsive architecture ensuring a seamless browsing experience across all devices.
+* **E-commerce Components:** Includes foundational UI elements like navigation menus, shopping cart tracking, and product exploration sections.
 
-## Getting Started
+## 🛠️ Tech Stack
 
-```bash
-npm install
-npm run dev
-```
+* **Frontend:** HTML, CSS, JavaScript (Update with React/Vue/Svelte if applicable)
+* **Tooling:** Vite *(Running on localhost:5173)*
 
-Then open http://localhost:5173
+## 🚀 Getting Started
 
-## Build for production
+To get a local copy up and running, follow these simple steps.
 
-```bash
-npm run build
-```
+### Prerequisites
+Make sure you have Node.js and your preferred package manager (npm, yarn, or pnpm) installed.
 
-## Features
-- ✅ SPA routing (no react-router needed — state-based)
-- ✅ Shared cart count across all pages
-- ✅ Click any product in Collection → goes to that product's Cart page
-- ✅ Hamburger sidebar on mobile
-- ✅ Page transition animations (fade + slide up)
-- ✅ Product card hover lift effect
-- ✅ Toast notification on add-to-cart
-- ✅ Original background colours preserved (pink home, blue cart)
-- ✅ All 4 Google Fonts: Cinzel, Dancing Script, Cormorant Garamond, Raleway
+### Installation
+
+1. Clone the repository:
+   ```sh
+   git clone [https://github.com/studentx-69/monk-chocolate.git](https://github.com/studentx-69/monk-chocolate.git)
+   
+2. Navigate into the project directory:
+   ```
+   cd monk-chocolate 
+
+3. Install the dependencies:
+   ```  
+   npm install
+
+4. Start the development server:
+   ```
+   npm run dev
+   
+Open your browser and visit http://localhost:5173/
+
+🤝 Contributing
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
+
+👤 Author
+Abhay Nirmalkar
+
+GitHub: @studentx-69
