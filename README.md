@@ -28,15 +28,15 @@ Make sure you have Node.js and your preferred package manager (npm, yarn, or pnp
    
 2. Navigate into the project directory:
  
-   cd monk-chocolate
+  ` cd monk-chocolate`
 
 3.Install the dependencies:
 
-  npm install
+`  npm install`
 
 4. Start the development server:
 
-   npm run dev
+   `npm run dev`
    
 Open your browser and visit http://localhost:5173/
 
