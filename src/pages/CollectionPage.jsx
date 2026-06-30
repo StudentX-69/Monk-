@@ -38,6 +38,7 @@ export default function CollectionPage({ setPage, setSelectedProduct }) {
             src="https://studentx-69.github.io/Cocoa-landing-page/Assests/images/chocolate4.png"
             alt="Artisanal chocolate bar"
             className="h-64 w-60  object-cover rounded-3xl shadow-2xl"
+            loading="lazy"
           />
         </div>
 
@@ -73,6 +74,7 @@ export default function CollectionPage({ setPage, setSelectedProduct }) {
                 src={p.img}
                 alt={p.name}
                 className="w-full object-cover scale-105"
+                loading="lazy"
                 style={{ height: 260, borderRadius: "12px 12px 0 0" }}
               />
               <div className="w-full text-center px-5 py-5 flex flex-col items-center gap-2">

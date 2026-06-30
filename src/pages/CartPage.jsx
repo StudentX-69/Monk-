@@ -35,6 +35,7 @@ export default function CartPage({ product, addToCartGlobal }) {
           src={item.img}
           alt={item.name}
           className="object-cover rounded-2xl shadow-2xl flex-shrink-0"
+          loading="lazy"
           style={{ height: "clamp(260px,40vw,400px)", width: "clamp(220px,34vw,340px)" }}
         />
 

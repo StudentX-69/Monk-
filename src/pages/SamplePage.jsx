@@ -6,6 +6,7 @@ const HoverImg = ({ src, alt, className, style }) => (
     alt={alt}
     className={`rounded-[2.5rem] object-cover transition-all duration-300 cursor-default ${className ?? ""}`}
     style={style}
+    loading="lazy"
     onMouseEnter={(e) => {
       e.currentTarget.style.transform = "scale(0.94)";
       e.currentTarget.style.filter = "grayscale(60%)";
@@ -42,6 +43,7 @@ export default function SamplePage({ setPage }) {
             <HoverImg
               src="https://plus.unsplash.com/premium_photo-1754337633089-110795080c67?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDV8fGNob2NvbGF0ZXMlMjBoYW5kJTIwY3JhZnRlZCUyMHJpY2glMjBmaW5pc2h8ZW58MHx8MHx8fDA%3D"
               alt="Premium chocolate box"
+              loading="lazy"
               style={{
                 height: 360, width: 350,
                 filter: "drop-shadow(8px 8px 14px rgba(0,0,0,0.18))",
@@ -64,6 +66,7 @@ export default function SamplePage({ setPage }) {
             <HoverImg
               src="https://images.unsplash.com/photo-1481391319762-47dff72954d9?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Artisan chocolatier at work"
+              loading="lazy"
               style={{
                 height: 360, width: 320,
                 filter: "drop-shadow(8px 8px 14px rgba(39,39,39,0.3))",

@@ -46,6 +46,7 @@ export default function HomePage({ setPage }) {
             <img
               src="https://studentx-69.github.io/Cocoa-landing-page/Assests/images/closeup-portrait-young-woman-bright-gold-earrings-white-cap-smiling-holding-bar-chocolate-purple-wall.jpg"
               alt="Woman with chocolate"
+              loading="lazy"
               className="w-full max-w-sm rounded-2xl object-cover aspect-[4/5] drop-shadow-2xl "
             />
           </div>
@@ -62,6 +63,7 @@ export default function HomePage({ setPage }) {
               src="https://images.unsplash.com/photo-1511381939415-e44015466834?w=1200&q=80"
               alt="Cacao beans"
               className="w-full h-96 object-cover rounded-3xl shadow-2xl"
+              loading="lazy"
             />
             <div className="absolute inset-0 flex items-center justify-center">
               <button
